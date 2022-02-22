@@ -1,3 +1,9 @@
+//Zadanie 3
+//Napisać program wczytujący liczbę arabską od 1 do 1 000 000 i wypisujący na ekranie słownie
+//Wczytaną liczbę.
+//Np.: wejście=105, wyjście=sto pięć
+
+
 using System;
 
 namespace ConsoleApp1
@@ -10,7 +16,7 @@ namespace ConsoleApp1
             int a;
             Console.Write("Podaj liczbę arabską od 1 do 1 000 000: ");
             a = Convert.ToInt32(Console.ReadLine());
-
+          
             if (a >= 900000)  { a -= 900000; Console.Write("dziewięćset tysięcy "); }
             if (a >= 800000) { a -= 800000; Console.Write("osiemset tysięcy "); }
             if (a >= 700000) { a -= 700000; Console.Write("siedemset tysięcy "); }
@@ -30,7 +36,7 @@ namespace ConsoleApp1
             if (a >= 30000) { a -= 30000; Console.Write("trzydzieści tysięcy "); }
             if (a >= 20000) { a -= 20000; Console.Write("dwadzieścia tysięcy "); }
             if (a >= 10000) { a -= 10000; Console.Write("dziesięć tysięcy "); }
-            
+           
             if (a >= 9000) { a -= 9000; Console.Write("dziewięć tysięcy "); }
             if (a >= 8000) { a -= 8000; Console.Write("osiem tysięcy "); }
             if (a >= 7000) { a -= 7000; Console.Write("siedem tysięcy "); }
@@ -40,7 +46,7 @@ namespace ConsoleApp1
             if (a >= 3000) { a -= 3000; Console.Write("trzy tysiące "); }
             if (a >= 2000) { a -= 2000; Console.Write("dwa tysiące "); }
             if (a >= 1000) { a -= 1000; Console.Write("tysiąc "); }
-            
+           
             if (a >= 900) { a -= 900; Console.Write("dziewięćset "); }
             if (a >= 800) { a -= 800; Console.Write("osiemset "); }
             if (a >= 700) { a -= 700; Console.Write("siedemset "); }
@@ -50,7 +56,7 @@ namespace ConsoleApp1
             if (a >= 300) { a -= 300; Console.Write("trzysta "); }
             if (a >= 200) { a -= 200; Console.Write("dwieście "); }
             if (a >= 100) { a -= 100; Console.Write("sto "); }
-            
+           
             if (a >= 90) { a -= 90; Console.Write("dziewięćdziesiąt "); }
             if (a >= 80) { a -= 80; Console.Write("osiemdziesiąt "); }
             if (a >= 70) { a -= 70; Console.Write("siedemdziesiąt "); }
