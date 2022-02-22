@@ -1,3 +1,7 @@
+//Zadanie 1
+//Dany jest ciąg arytmetyczny a(n)=3n-1. Napisać program wczytujący numer wyrazu ciągu (n) i
+//wypisujący na ekranie jego wartość.
+
 using System;
 
 namespace ConsoleApp1
@@ -10,7 +14,7 @@ namespace ConsoleApp1
             Console.Write("Podaj numer wyrazu ciągu n: ");  
             n = Convert.ToDouble(Console.ReadLine());       
             Console.WriteLine("Wartość ciągu a(n)=3n-1 dla n = {0}, wynosi {1}",n,3*n-1);      
-            Console.ReadKey(true);      
+            Console.ReadKey(true);     
 
 
 
@@ -19,4 +23,3 @@ namespace ConsoleApp1
             
     }
 }
- 
