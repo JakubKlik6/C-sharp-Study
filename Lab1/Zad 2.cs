@@ -1,3 +1,7 @@
+//Zadanie 2
+//Napisać program wczytujący dwie liczby całkowite i wypisujący na ekranie sumę kwadratów
+//wczytanych liczb.
+
 using System;
 
 namespace ConsoleApp1
@@ -10,12 +14,12 @@ namespace ConsoleApp1
             Console.Write("Podaj a= ");
             a = Convert.ToInt32(Console.ReadLine());
             Console.Write("Podaj b= ");
-            b = Convert.ToInt32(Console.ReadLine());        
+            b = Convert.ToInt32(Console.ReadLine());      
             Console.WriteLine("Suma kwadratów liczb a i b wynosi {0}",(a*a)+(b*b));     
             Console.ReadKey(true);     
 
         }
 
-             
+            
     }
 }
