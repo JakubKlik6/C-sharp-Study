@@ -1,3 +1,9 @@
+//Zadanie 1
+//Napisać program wczytujący trzy długości odcinków i wypisujący na ekranie informację czy da
+//się z tych odcinków zbudować trójkąt, czy też nie.
+//Wskazówka: Z trzech odcinków można zbudować trójkąt, jeżeli suma długości każdych dwóch
+//odcinków jest większa od długości trzeciego odcinka.
+
 using System;
 
 namespace ConsoleApp1
