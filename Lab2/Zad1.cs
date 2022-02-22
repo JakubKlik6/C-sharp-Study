@@ -19,7 +19,7 @@ namespace ConsoleApp1
             else
                 Console.WriteLine("Z podanych odcników nie da się zbudować trójkąta");
 
-            Console.ReadKey(true);  //pauza
+            Console.ReadKey(true); 
         }
 
 
