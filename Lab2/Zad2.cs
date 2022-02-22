@@ -1,3 +1,9 @@
+//Zadanie 2
+//Dana jest funkcja kwadratowa f(x)=ax^2+bx+c. Napisać program wczytujący współczynniki
+//funkcji kwadratowej (a, b, c) i wypisujący na ekranie jej miejsca zerowe lub informację o ich
+//braku.
+//Wskazówka: Zbadaj deltę, wyznacz miejsca zerowe
+
 using System;
 
 namespace ConsoleApp1
@@ -17,14 +23,14 @@ namespace ConsoleApp1
             
             delta = ((b * b) - 4 * a * c);  
             
-            if (delta > 0)      
+            if (delta > 0)    
                 Console.WriteLine("Podana funkcja posiada dwa miejsca zerowe mz1= {0} oraz mz2= {1}", (-b - Math.Sqrt(delta)) / (2 * a), (-b + Math.Sqrt(delta)) / (2 * a));
-            else if (delta == 0)        
+            else if (delta == 0)      
                 Console.WriteLine("Podana funkcja posiada jedno miejsce zerowe mz0= {0}", -b/(2*a));
-            else   
+            else  
                 Console.WriteLine("Podana funcja nie posiada miejsc zerowych");
 
-            Console.ReadKey(true);      
+            Console.ReadKey(true);    
         }
 
 
