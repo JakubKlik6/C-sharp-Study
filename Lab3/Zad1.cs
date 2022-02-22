@@ -1,3 +1,5 @@
+//Napisz program drukujący na ekranie kolejne liczby naturalne podzielne przez 7. Ilość liczb wczytaj z klawiatury.Użyj pętli for. Oto wydruk dla ile = 6: 0,7,14,21
+
 using System;
 
 namespace Programowanie
