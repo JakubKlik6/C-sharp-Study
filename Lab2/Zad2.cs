@@ -7,22 +7,24 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            double a, b, c, delta;      //wczytujemy dane
+            double a, b, c, delta;     
             Console.Write("Podaj odcinek a: ");
             a = Convert.ToDouble(Console.ReadLine());
             Console.Write("Podaj odcinek b: ");
             b = Convert.ToDouble(Console.ReadLine());
             Console.Write("Podaj odcinek c: ");
             c = Convert.ToDouble(Console.ReadLine());
-            delta = ((b * b) - 4 * a * c);      //Obliczamy deltę
-            if (delta > 0)      //Jeżeli delta > 0 to wypisujemy 2 miejsca zerowe
+            
+            delta = ((b * b) - 4 * a * c);  
+            
+            if (delta > 0)      
                 Console.WriteLine("Podana funkcja posiada dwa miejsca zerowe mz1= {0} oraz mz2= {1}", (-b - Math.Sqrt(delta)) / (2 * a), (-b + Math.Sqrt(delta)) / (2 * a));
-            else if (delta == 0)        //Jeżeli delta < 0 to wypisujemy 1 miejsce zerowe
+            else if (delta == 0)        
                 Console.WriteLine("Podana funkcja posiada jedno miejsce zerowe mz0= {0}", -b/(2*a));
-            else   // w innym przypadku funkcja nie posiada miejsc zerowych
+            else   
                 Console.WriteLine("Podana funcja nie posiada miejsc zerowych");
 
-            Console.ReadKey(true);      //pauza
+            Console.ReadKey(true);      
         }
 
 
