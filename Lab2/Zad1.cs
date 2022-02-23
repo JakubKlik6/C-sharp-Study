@@ -20,6 +20,7 @@ namespace ConsoleApp1
             b = Convert.ToDouble(Console.ReadLine());
             Console.Write("Podaj odcinek c: ");
             c = Convert.ToDouble(Console.ReadLine());
+            
             if ((a+b>c) && (a+c>b) && (c+b>a))
                 Console.WriteLine("Z podanych odcinków da się zbudować trójkąt");
             else
@@ -27,7 +28,5 @@ namespace ConsoleApp1
 
             Console.ReadKey(true); 
         }
-
-
     }
 }
