@@ -1,2 +1,2 @@
-# C-sharp-Study
+# Cs-Study
 Tasks from my college
