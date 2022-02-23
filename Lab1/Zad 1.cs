@@ -10,10 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            double n;
+            int n;
             Console.Write("Podaj numer wyrazu ciągu n: ");  
-            n = Convert.ToDouble(Console.ReadLine());       
-            Console.WriteLine("Wartość ciągu a(n)=3n-1 dla n = {0}, wynosi {1}",n,3*n-1);      
+            n = Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine("Wartość ciągu a(n)=3n-1 dla n = {0}, wynosi {1}",n,3*n-1);   
+            
             Console.ReadKey(true);     
 
 
