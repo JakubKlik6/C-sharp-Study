@@ -24,7 +24,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Jeżeli podana liczba jest kwadratem pewnej liczby całkowitej, wyświetli się poniżej:");
-            Console.WriteLine("{0}", Czy_kw(13));
+            Console.WriteLine("{0}", Czy_kw(25));
 
             Console.ReadKey(true);      //pauza
         }
