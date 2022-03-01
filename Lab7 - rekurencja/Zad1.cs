@@ -23,6 +23,7 @@ namespace ConsoleApp1
                 Console.WriteLine("{0}!={1}",n,silnia(n));
             } 
             while (n > 0);
+            Console.ReadKey(true);
         }
     }
 }
